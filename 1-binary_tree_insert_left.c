@@ -2,7 +2,8 @@
 /**
  * binary_tree_insert_left - check code.
  * @parent: structure pointer
- * @value; integer variable
+ * @value: integer variable
+ * Return: NULL or pointer
  */
 binary_tree_t *binary_tree_insert_left(binary_tree_t *parent, int value)
 {
