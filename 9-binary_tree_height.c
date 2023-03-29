@@ -12,7 +12,7 @@ size_t binary_tree_height(const binary_tree_t *tree)
 
 		leftey = tree->left ? 1 + binary_tree_height(tree->left) : 0;
 		rightey = tree->right ? 1 + binary_tree_height(tree->right) : 0;
-		return ((leftey > r) ? leftey : rightey);
+		return ((leftey > rightey) ? leftey : rightey);
 	}
 	return (0);
 }
