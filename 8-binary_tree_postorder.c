@@ -1,6 +1,8 @@
 #include "binary_trees.h"
 /**
- * 
+ * binary_tree_postorder - chcek code.
+ * @tree: constant structure pointer
+ * @func: some kind of magic
  */
 void binary_tree_postorder(const binary_tree_t *tree, void (*func)(int))
 {
