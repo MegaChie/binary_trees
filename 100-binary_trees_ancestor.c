@@ -39,10 +39,9 @@ binary_tree_t *binary_trees_ancestor(const binary_tree_t *first,
 }
 
 /**
- * depth - Measures the depth of a node in a binary tree.
- * @tree: A pointer to the node to measure the depth.
- *
- * Return: If tree is 0, your function must return 0, else return the depth.
+ * depth - check code.
+ * @tree: constant structure pointer
+ * Return: function's value
  */
 size_t depth(const binary_tree_t *tree)
 {
