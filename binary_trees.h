@@ -61,4 +61,5 @@ binary_tree_t *binary_trees_ancestor(const binary_tree_t *first,
 avl_t *array_to_avl(int *array, size_t size);
 void binary_tree_levelorder(const binary_tree_t *tree, void (*func)(int));
 binary_tree_t *binary_tree_rotate_left(binary_tree_t *tree);
+binary_tree_t *binary_tree_rotate_right(binary_tree_t *tree);
 #endif
