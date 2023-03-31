@@ -43,9 +43,7 @@ bst_t *bst_insert(bst_t **tree, int value)
 			}
 			new = binary_tree_node(currunt, value);
 			if (new == 0)
-			{
 				return (0);
-			}
 			return (currunt->right = new);
 		}
 	}
